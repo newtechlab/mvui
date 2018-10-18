@@ -14,6 +14,8 @@
 </template>
 
 <script>
+
+// TOTO: Hide this from github
 let api = "https://stemmeid.newtechlab.wtf/api/register/";
 
 export default {

@@ -20,6 +20,7 @@ import NoCall from '@/views/NoCall.vue'
 import KnownCaller from '@/views/KnownCaller.vue'
 import UnknownCaller from '@/views/UnknownCaller.vue'
 
+// TOTO: Hide this from github
 let api = "https://stemmeid.newtechlab.wtf/api/state";
 
 export default {
