@@ -1,0 +1,33 @@
+@import '@/style/colors.scss';
+
+body, html {
+    background-color: $color-1;
+    
+}
+
+p, ol, ul {
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 120%
+}
+
+.textcontainer {
+    max-width: 640px;
+    margin: auto;
+}
+
+.dark {
+    background-color: $color-1;
+    p, h1, h2, h3, h4, h5, h6, ol, ul {
+        color: $color-colortext;
+    }
+}
